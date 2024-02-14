@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+*{
+    font-family: Cabin;
+    padding: 0%;
+    margin: 0%;
+}
+
+#amazonlogo{
+    float: left;
+}
+
+#address, #signin, #returns, #table, #primeday, #cart, #india{
+    display: inline-block;
+}
+
+#hellotext{
+    color: rgb(151, 151, 151);
+}
+table {
+    display: flex;
+    width: 60vh;
+}
+#all{
+    color: black;
+    background-color: white;
+    position: relative;
+    top: 1px;
+    width: 700px;
+    padding: 3px;
+}
+
+header{
+    background-color: rgb(18,25,33);
+    color: white;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    position: sticky;
+    font-size: small;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.secondheader {
+    background-color: rgb(36,48,64);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 2vh;
+    align-items: center;
+    height: fit-content;
+}
+
+.secondheader img:nth-of-type(1) {
+    height: 2vh;
+}
+
+.background{
+    background-image: url("assets/background\ picture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#search{
+    background-color: rgb(251,190,103);
+    position: relative;
+    top: 1px;
+    padding: 3px;
+}
+
+.box{
+    display: inline-block;
+}
+
+#one, #two{
+    background-color: white;
+    padding: 13px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#three, #four{
+    background-color: white;
+    padding: 13px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#three img{
+    text-align: center;
+}
+
+small{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    font-weight: 100;
+}
+
+div#one > img, div#two > img{
+    height: 70px;
+}
+div#three > img{
+    height: 207px;
+}
+
+.bluetext{
+    font-weight: lighter;
+    color:rgb(108, 156, 165);
+    font-size: small;
+}
+
+button{
+    background-color: rgba(254,216,19,255);
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    border-color:  rgba(254,216,19,255);
+    border-bottom: 10px;
+    border-right: 10px;
+    box-shadow: 0px 0px 0px rgba(254,216,19,255);
+}
+
+
+@media (max-width: 700px) {
+    .secondheader {
+        font-size: 1.4vh;
+    }
+    .secondheader div {
+        display: none;
+    }
+    header {
+        font-size: 1.5vh;
+    }
+    header img {
+        height: 1.5vh;
+    }
+    table {
+        width: 30vh;
+    }
+    .background{
+        background-image: url("assets/background\ picture.png");
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+}
